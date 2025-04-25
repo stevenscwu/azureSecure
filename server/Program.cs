@@ -10,26 +10,24 @@ namespace AzureSecureBackend
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // Add services to the container
             builder.Services.AddControllers();
 
-            // Add Swagger (OpenAPI) support if needed
+            // Add Swagger/OpenAPI support
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Enable Swagger in development
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            // Enable Swagger in all environments
+            app.UseSwagger();
+            app.UseSwaggerUI();
 
             app.UseHttpsRedirection();
+
             app.UseAuthorization();
 
-            // Map controller routes
+            // Map API controllers
             app.MapControllers();
 
             app.Run();
