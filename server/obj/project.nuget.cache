@@ -1,20 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NIOmNJvQ5wE=",
-  "success": false,
+  "dgSpecHash": "rVtmmWyvKRg=",
+  "success": true,
   "projectFilePath": "C:\\Azure\\secure\\server\\server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Steven\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512"
+    "C:\\Users\\Steven\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.4\\microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
+    "C:\\Users\\Steven\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1202",
-      "level": "Error",
-      "message": "Package Microsoft.AspNetCore.OpenApi 9.0.2 is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Package Microsoft.AspNetCore.OpenApi 9.0.2 supports: net9.0 (.NETCoreApp,Version=v9.0)",
-      "libraryId": "Microsoft.AspNetCore.OpenApi",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
