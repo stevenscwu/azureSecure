@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Azure\\secure\\server\\server.csproj": {}
+    "C:\\Azure\\secure\\server\\server.csproj": {}
   },
   "projects": {
-    "c:\\Azure\\secure\\server\\server.csproj": {
+    "C:\\Azure\\secure\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Azure\\secure\\server\\server.csproj",
+        "projectUniqueName": "C:\\Azure\\secure\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "c:\\Azure\\secure\\server\\server.csproj",
+        "projectPath": "C:\\Azure\\secure\\server\\server.csproj",
         "packagesPath": "C:\\Users\\Steven\\.nuget\\packages\\",
-        "outputPath": "c:\\Azure\\secure\\server\\obj\\",
+        "outputPath": "C:\\Azure\\secure\\server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,8 @@
         "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
