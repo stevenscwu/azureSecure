@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - 'client/**'
+    branches:
+      - main
 
 jobs:
   build:
@@ -22,6 +24,14 @@ jobs:
         cd client
         npm install
         npm run build -- --output-path=dist
+
+    - name: SonarCloud Scan
+      uses: sonarsource/sonarqube-scan-action@master
+      with:
+        projectBaseDir: client
+      env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        SONAR_HOST_URL: "https://sonarcloud.io"
 
     - name: Azure Login
       uses: azure/login@v1
